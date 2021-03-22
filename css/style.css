@@ -1,0 +1,245 @@
+.padd {
+  padding: 60px;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,p {
+  margin-bottom: 20px;
+text-transform: capitalize;
+}
+.space{
+  margin: 40px 0;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  background-color: #000000;
+}
+.navbar {
+  padding: 1rem 1rem !important;
+  background-color: #202020;
+  justify-content: space-evenly;
+}
+.navbar-nav {
+  justify-content: space-evenly;
+}
+.nav-item {
+  text-align: center;
+}
+.nav-item img {
+  width: 28px;
+  height: auto;
+  cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #7ca234;
+}
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+.logo img {
+  width: 133px;
+}
+.dropdown-menu {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #fff;
+  list-style: none;
+  background-color: #000000;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  margin-top: 15px;
+}
+.dropdown-menu.show {
+  display: flex;
+}
+.dropdown-item {
+  color: #fff;
+  background-color: unset;
+}
+.dropdown-item:hover {
+  color: #ddd;
+}
+
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item.active,
+.dropdown-item:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: unset;
+}
+.nav-item .fa {
+  font-size: 24px;
+  color: #fff;
+}
+.nav-item .fa:hover {
+  color: #7ca234;
+}
+.header-cover {
+  background-image: url(./../images/s960_30_05_20_GovUK2.jpg);
+  width: 100%;
+  height: 600px;
+  color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-align-content: flex-end;
+  align-content: flex-end;
+  border-radius: 0px 0px 20px 20px;
+  position: relative;
+  margin-top: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.heading-description{
+  align-items: flex-end;
+  align-content: flex-end;
+  background-color: #47bb7d5e;
+  background-image: linear-gradient(
+    45deg,
+    #47bb7d75 0%,
+    #7bc16a7c 100%
+  );
+  position: absolute;
+  bottom: -20px;
+  padding: 40px;
+  border-radius: 0px 0px 20px 20px;
+  color:#fff
+}
+.championship{
+  background-color: #202020;
+}
+.nav{
+justify-content: space-evenly;
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: #fff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: unset;
+  border-color: #202020;
+  border-bottom-color: #7ca234;
+  color:#7ca234
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.hover{
+border-color: #202020;
+color:#7ca234
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  color:#7ca234
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border:0px solid #333;
+border-bottom:2px solid  #7ca234;
+}
+.tab-container{
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+.tab-container img{
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+.tab-wrraper{
+text-align: center;
+  padding: 100px;
+}
+.tab-container span{
+  display: block;
+  margin: 10px 0;
+
+}
+h4{
+  color:#fff
+}
+.background
+{
+  background: #585858;
+  padding: 7px;
+  border-radius: 18px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  color:#d3130e;
+  cursor: pointer;
+ background-image:linear-gradient(
+    45deg,
+    #e9ecef 0%,
+    rgb(0 0 0 / 8%) ,.5
+  )
+}
+.bold{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+p
+{
+  align-items: flex-end;
+align-content: flex-end;
+background-color: transparent;
+background-image: unset;
+position: static;
+bottom: 0;
+color: #7ca234;
+padding: 0;
+border-radius: 0;
+}
+.tab-show-data{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+@media only screen and (max-width: 980px) {
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .nav-item {
+    padding: 10px 0;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none;
+  }
+  
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.hover{
+    border: none;
+  }
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border: unset,none;
+    }
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none;
+  }
+}
