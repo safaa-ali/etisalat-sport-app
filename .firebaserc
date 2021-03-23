@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "etisalat-native-pro",
+    "etisalat-app1": "etisalat-app1"
+  }
+}

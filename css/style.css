@@ -57,6 +57,9 @@ body {
 .logo img {
   width: 133px;
 }
+.dropdown-content{
+  display: flex;
+}
 .dropdown-menu {
   top: 100%;
   left: 50%;
@@ -241,5 +244,8 @@ border-radius: 0;
     }
   .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border: none;
+  }
+  .dropdown-content{
+    display: unset;
   }
 }
