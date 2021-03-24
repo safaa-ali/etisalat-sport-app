@@ -13,6 +13,25 @@ new WOW({ mobile: false }).init();
 $("#dropdownMenuButton").click(() => {
   $(".dropdown-menu").slideToggle();
 });
+
+
+
+$(window).scroll(function(){
+  var sc =  $(window).scrollTop()
+   if(sc>0){
+    $(".heading").slideUp(300)
+   console.log("welcome back")
+
+   }  
+   else {
+            $(".heading").slideDown(300)
+
+         }
+ })
+
+
+
+
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
