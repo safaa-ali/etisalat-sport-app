@@ -7,10 +7,25 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+  <!-- Bootstrap CSS File -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+      
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+    </script>
+      
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
 
-    <link rel="stylesheet"  href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css" />
-   
 
     <link rel="stylesheet" href="css/animate.css" />
 
@@ -19,31 +34,17 @@
   <body dir="rtl">
     <div class="heading">
       <div class="bell">
-        <img src="./images/icons8-notification-48.png" alt="" />
-        <i class="fas fa-futbol"></i>
-      </div>
+        <i class="fa fa-bell"></i>     
+       </div>
       <div class="logo">
         <img src="./images/download.jpg" alt="" />
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav w-100">
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
+    
+        <div class="" id="navbarSupportedContent">
+          <ul class="navbar-nav">
             <li class="nav-item dropdown">
-              <img src="./images/icons8-basketball-48.png" alt="">
-              <i class="fa fa-futbol"></i>
               <a
                 class="nav-link dropdown-toggle"
                 type="button"
@@ -52,6 +53,8 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
+              <i class="fa fa-tachometer" aria-hidden="true"></i>
+
                 كرة القدم
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -62,31 +65,43 @@
                 </div>
               </div>
             </li>
+
             <li class="nav-item">
-              <img src="./images/icons8-pullups-48.png" alt="">
-              <a class="nav-link "> فيتنس</a>
+              <!-- <i class="fa fa-baseball-ball"></i> -->
+              <a class="nav-link "> 
+                <i class="fa fa-child"></i>          
+
+                فيتنس</a>
             </li>
             <li class="nav-item">
-              <img src="./images/icons8-volleyball-player-48.png" alt="">
-              <a class="nav-link ">كرة اليد</a>
+                <a class="nav-link ">
+                  <i class="fa fa-tachometer" aria-hidden="true"></i>
+
+                  كرة اليد</a>
             </li>
             <li class="nav-item">
-              <img src="./images/icons8-tennis-racquet-48.png" alt="">
-              <a class="nav-link "> تنس</a>
+              <i class="fa fa-street-view"></i>             
+                   <a class="nav-link "> تنس</a>
             </li>
             <li class="nav-item">
-              <img src="./images/icons8-tennis-ball-48.png" alt="">
-              <a class="nav-link ">كرة السلة</a>
+                <a class="nav-link ">
+                  <i class="fa fa-address-card" aria-hidden="true"></i>
+
+                  كرة السلة</a>
             </li>
             <li class="nav-item">
-              <img src="./images/icons8-swimming-48.png" alt="">
-              <a class="nav-link "> سباحة</a>
+              <!-- <i class="fa fa-baseball-ball"></i>             -->
+              <a class="nav-link "> 
+                <i class="fa fa-address-book" aria-hidden="true"></i>   
+
+                سباحة</a>
             </li>
           </ul>
         </div>
-      </div>
+      <!-- </div> -->
     </nav>
-    <div class="header-cover">
+    <!-- start hero section -->
+    <div class="hero">
         <p class="heading-description">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
           doloribus enim facilis amet? Earum molestiae amet hic omnis. Provident
@@ -94,13 +109,16 @@
           sequi sint aliquam magni?
         </ا>
       </div>
+      <!-- start table championship  -->
     <section class="championship mt-4 mb-4">
+    
       <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
           <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
             >
             الامس <br>
             31 sep
+
             </a
           >
         </li>
@@ -142,11 +160,13 @@
               </div>
             </div>
           </div>
-          <div class="tab-show-data">
+          <div class="tab-show-data nav-tabs">
             <p> OSN يعرض علي </p>
             <p>استاد القاهرة </p>
           </div>
-
+          <div class="show-all-championship">
+           <h4>عرض كل البطولات</h4>
+          </div>
         </div>
         <div class="tab-pane" id="tabs-2" role="tabpanel">
           <div class="tab-wrraper">
@@ -191,15 +211,479 @@
           </div>
         </div>
       </div>
+    
+    </section>
+      <!-- start  championship  information -->
+
+    <section class="container-fluid containers-champoins" >
+      <div class="containers-champoins-content">
+        <h2 class="bold">البطولات</h2>
+        <div class="row chamipion-box">
+  
+          <div class="col-lg-4 col-md-12 chamipion-box-item">
+            <h5>بطولة الامم الافريقية</h5>
+  
+          <div class="">
+            <h6>المباراة القادمة</h6>
+            <div class="data-contain">
+              <div class="data-contain-item">
+                <div class="match-info">
+                  <div class="score">
+                    <img src="./images/egypt.png" alt="" />
+                  </div>
+                  <div class="score vs-block">
+                    <p>vs</p>
+                  </div>
+                  <div class="score">
+                    <img src="./images/flag-round-250.png" alt="" />
+                  </div>
+                </div>
+                <div class="date-item">
+                  <h6>8:00 م</h6>
+                  <h6>28 /3 /2020</h6>
+                </div>
+               
+
+              </div>
+              <div class="match-info-img">
+                <img src="./images/pngtree-caf-football-logo-png-image_3643068.jpg" alt="">
+              </div>
+            </div>
+            
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-12 chamipion-box-item">
+            <h5>بطولة الامم الافريقية</h5>
+  
+          <div class="">
+            <h6>المباراة القادمة</h6>
+            <div class="data-contain">
+              <div class="data-contain-item">
+                <div class="match-info">
+                  <div class="score">
+                    <img src="./images/egypt.png" alt="" />
+                  </div>
+                  <div class="score vs-block">
+                    <p>vs</p>
+                  </div>
+                  <div class="score">
+                    <img src="./images/flag-round-250.png" alt="" />
+                  </div>
+                </div>
+                <div class="date-item">
+                  <h6>8:00 م</h6>
+                  <h6>28 /3 /2020</h6>
+                </div>
+               
+
+              </div>
+              <div class="match-info-img">
+                <img src="./images/pngtree-caf-football-logo-png-image_3643068.jpg" alt="">
+              </div>
+            </div>
+            
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-12 chamipion-box-item">
+            <h5>بطولة الامم الافريقية</h5>
+  
+          <div class="">
+            <h6>المباراة القادمة</h6>
+            <div class="data-contain">
+              <div class="data-contain-item">
+                <div class="match-info">
+                  <div class="score">
+                    <img src="./images/egypt.png" alt="" />
+                  </div>
+                  <div class="score vs-block">
+                    <p>vs</p>
+                  </div>
+                  <div class="score">
+                    <img src="./images/flag-round-250.png" alt="" />
+                  </div>
+                </div>
+                <div class="date-item">
+                  <h6>8:00 م</h6>
+                  <h6>28 /3 /2020</h6>
+                </div>
+               
+
+              </div>
+              <div class="match-info-img">
+                <img src="./images/pngtree-caf-football-logo-png-image_3643068.jpg" alt="">
+              </div>
+            </div>
+            
+          </div>
+          </div>
+         
+         
+         
+  
+        </div>
+      </div>
+      
+     
     </section>
 
+          <!-- start news championship  -->
+<section class="container-fluid news" dir="rtl">
+  <ul class="caption">
+    <li class="bold">الاخبار</li>
+    <li><a href="">المزيد</a></li>
+  </ul>
+ <div class="row">
+  <div class="col-lg-6 border-left">
+    <div class="news-item">
+      <div class="video-content">
+        <div class="video-item">
+          <video  controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-item-title">
+          <div>
+            <div class="video-title">
+              <h6>بطولة الامم الافريقية</h6>
+             
+            </div>
+            <div class="video-title mt-4">
+              <div>
+              <span>مع شيماء</span>   
+              <span>30 اكتوبر 
+                20 20 </span>   
+             <span> 30 مشاهدة</span>     
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="action">
+        <i class="fa fa-thumbs-up"></i>
+      </div>
+    </div>
+   </div>
+   <div class="col-lg-6">
+    <div class="news-item">
+      <div class="video-content">
+        <div class="video-item">
+          <video  controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-item-title">
+          <div>
+            <div class="video-title">
+              <h6>بطولة الامم الافريقية</h6>
+             
+            </div>
+            <div class="video-title mt-4">
+              <div>
+              <span>مع شيماء</span>   
+              <span>30 اكتوبر 
+                20 20 </span>   
+             <span> 30 مشاهدة</span>     
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="action">
+        <i class="fa fa-thumbs-up"></i>
+      </div>
+    </div>
+   </div>
+ </div>
+ <div class="row mt-4">
+  <div class="col-lg-6 border-left">
+    <div class="news-item">
+      <div class="video-content">
+        <div class="video-item">
+          <video  controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-item-title">
+          <div>
+            <div class="video-title">
+              <h6>بطولة الامم الافريقية</h6>
+             
+            </div>
+            <div class="video-title mt-4">
+              <div>
+              <span>مع شيماء</span>   
+              <span>30 اكتوبر 
+                20 20 </span>   
+             <span> 30 مشاهدة</span>     
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="action">
+        <i class="fa fa-thumbs-up"></i>
+      </div>
+    </div>
+   </div>
+   <div class="col-lg-6">
+    <div class="news-item">
+      <div class="video-content">
+        <div class="video-item">
+          <video  controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="video-item-title">
+          <div>
+            <div class="video-title">
+              <h6>بطولة الامم الافريقية</h6>
+             
+            </div>
+            <div class="video-title mt-4">
+              <div>
+              <span>مع شيماء</span>   
+              <span>30 اكتوبر 
+                20 20 </span>   
+             <span> 30 مشاهدة</span>     
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="action">
+        <i class="fa fa-thumbs-up"></i>
+      </div>
+    </div>
+   </div>
+ </div>
+</section>
+          <!-- start studio  -->
+          
+  <!--Carousel Wrapper-->
+  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+    <!--Controls-->
+    <div class="controls-top">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+
+  
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+
+        <div class="row">
+          <div class="col  col-sm-4">
+           
+            <div class="studio-video-item">
+              <video  controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-header">
+                <h4>africain nation</h4>
+                <div class="video-info">
+                  <p>30 اكتوبر 2020</p>
+                  <p>30  مشاهدة</p>
+
+                </div>
+              </div>
+
+            </div>
+         
+          </div>
+
+          <div class="col col-sm-4">
+           
+            <div class="studio-video-item">
+              <video  controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-header">
+                <h4>africain nation</h4>
+                <div class="video-info">
+                  <p>30 اكتوبر 2020</p>
+                  <p>30  مشاهدة</p>
+
+                </div>
+              </div>
+
+            </div>
+         
+          </div>
+
+          <div class="col col-sm-4">
+           
+            <div class="studio-video-item">
+              <video  controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-header">
+                <h4>africain nation</h4>
+                <div class="video-info">
+                  <p>30 اكتوبر 2020</p>
+                  <p>30  مشاهدة</p>
+
+                </div>
+              </div>
+
+            </div>
+         
+          </div>
+        </div>
+
+      </div>
+      <!--/.First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col col-sm-4">
+           
+            <div class="studio-video-item">
+              <video  controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-header">
+                <h4>africain nation</h4>
+                <div class="video-info">
+                  <p>30 اكتوبر 2020</p>
+                  <p>30  مشاهدة</p>
+
+                </div>
+              </div>
+
+            </div>
+         
+          </div>
+
+          <div class="col col-sm-4">
+           
+            <div class="studio-video-item">
+              <video  controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-header">
+                <h4>africain nation</h4>
+                <div class="video-info">
+                  <p>30 اكتوبر 2020</p>
+                  <p>30  مشاهدة</p>
+
+                </div>
+              </div>
+
+            </div>
+         
+          </div>
+
+          <div class="col col-sm-4">
+           
+            <div class="studio-video-item">
+              <video  controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-header">
+                <h4>africain nation</h4>
+                <div class="video-info">
+                  <p>30 اكتوبر 2020</p>
+                  <p>30  مشاهدة</p>
+
+                </div>
+              </div>
+
+            </div>
+         
+          </div>
+        </div>
+
+      </div>
+      <!--/.Second slide-->
+
+    
+
+    </div>
+    <!--/.Slides-->
+
+  </div>
+
+<!-- footer -->
+<nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
+    
+  <div class="" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+     
+
+      <li class="nav-item">
+        <!-- <i class="fa fa-baseball-ball"></i> -->
+        <a class="nav-link "> 
+          <i class="fa fa-child"></i>          
+
+          الرئيسية</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link ">
+            <i class="fa fa-tachometer" aria-hidden="true"></i>
+
+             نتائج</a>
+      </li>
+      <li class="nav-item">
+        <i class="fa fa-street-view"></i>             
+             <a class="nav-link "> الاستوديو</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link ">
+            <i class="fa fa-address-card" aria-hidden="true"></i>
+
+             الاخبار</a>
+      </li>
+      <li class="nav-item">
+        <!-- <i class="fa fa-baseball-ball"></i>             -->
+        <a class="nav-link "> 
+          <i class="fa fa-address-book" aria-hidden="true"></i>   
+
+          المزيد</a>
+      </li>
+    </ul>
+  </div>
+<!-- </div> -->
+</nav>
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src= 
+    <!-- <script src= 
     "https://www.gstatic.com/firebasejs/3.7.4/firebase.js"> 
-        </script> 
+        </script>  -->
+
     <script src="./js/main.js"></script>
    
   </body>

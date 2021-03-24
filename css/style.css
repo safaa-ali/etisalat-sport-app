@@ -39,6 +39,8 @@ body {
 }
 .nav-item {
   text-align: center;
+  margin: 0 10px;
+
 }
 .nav-item img {
   width: 28px;
@@ -94,11 +96,12 @@ body {
 .nav-item .fa {
   font-size: 24px;
   color: #fff;
+  display: block;
 }
-.nav-item .fa:hover {
+.nav-item a .fa:hover{
   color: #7ca234;
 }
-.header-cover {
+.hero{
   background-image: url(./../images/s960_30_05_20_GovUK2.jpg);
   width: 100%;
   height: 600px;
@@ -137,9 +140,16 @@ body {
 }
 .championship{
   background-color: #202020;
+  padding: 50px;
+
 }
 .nav{
 justify-content: space-evenly;
+}
+.nav-tabs
+{
+  width: 96%;
+  margin-right: 2%;
 }
 
 .nav-tabs .nav-link {
@@ -184,6 +194,7 @@ text-align: center;
 .tab-container span{
   display: block;
   margin: 10px 0;
+  padding: 6px;
 
 }
 h4{
@@ -192,7 +203,7 @@ h4{
 .background
 {
   background: #585858;
-  padding: 7px;
+  padding: 0px 8px;
   border-radius: 18px;
   font-size: 13px;
   margin-bottom: 20px;
@@ -207,6 +218,15 @@ h4{
 .bold{
   font-size: 30px;
   margin-bottom: 50px;
+  color:#fff;
+}
+.bell .fa{
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.navbar-nav li:hover{
+color:#7ca234
 }
 p
 {
@@ -223,7 +243,164 @@ border-radius: 0;
 .tab-show-data{
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  /* padding: 20px 100px; */
+}
+.show-all-championship{
+  text-align: center;
+  padding: 40px 0 0px 0;
+
+}
+.show-all-championship h4{
+  color:#7ca234
+
+}
+.containers-champoins{
+  text-align: right;
+  background: #202020;
+}
+.containers-champoins-content{
+  padding: 40px 0px;
+}
+.chamipion-box-item{
+  background: linear-gradient(#DCE35B,#45B649);
+  border-radius: 16px;
+  margin: 10px;
+  padding: 20px;
+  max-width: 32%;
+cursor: pointer;
+transition: .5s ease-in-out;
+}
+.chamipion-box-item:hover{
+transform: scale(.9);
+}
+.chamipion-box-item h2{
+  color:#fff
+}
+.data-contain {
+  display: flex;
+  justify-content: space-between;
+
+}
+.data-contain img{
+  width: 60px;
+  height: auto;
+}
+
+.chamipion-box h6{
+  text-align: right;
+}
+.data-contain-item{
+  width: 60%;
+}
+.date-item{
+  display: flex;
+  justify-content: space-evenly;
+  color:#fff;
+  margin-top: 10px;
+
+}
+.match-info{
+  display: flex;
+  justify-content: space-evenly;
+/* width: 60%; */
+}
+
+.vs-block p{
+  background: #7ca2344d;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+.match-info-img img{
+width: 90px;
+}
+
+
+/* news  */
+ul{
+  list-style: none;
+}
+.news{
+  margin: 10px 0;
+  background-color: #202020;
+  padding: 20px ;
+}
+.caption{
+  display: flex;
+  justify-content: space-between;
+}
+
+.caption li{
+  color:#fff
+}
+.caption a{
+  color:#7ca234;
+}
+.news-item{
+  display: flex;
+  justify-content: space-between;
+}
+.video-content{
+  display: flex;
+  justify-content: space-around;
+}
+.video-title{
+  display: flex;
+  align-items: center;
+  color:#fff;
+  margin-right: 10px;
+}
+.video-title-end{
+  display: flex;
+  align-items: flex-end;
+}
+.video-item video{
+  width: 200px;
+  height: 200px;
+}
+.video-item-title{
+  text-align: right;
+  margin-right: 4px;
+}
+.video-item-title span
+{
+  padding: 6px 2px;
+color:#fff
+}
+.action{
+  display: flex;
+  align-items: center;
+}
+.news .action .fa{
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+}
+.border-left{
+  border-left: 1px solid #292a2b!important;
+}
+
+/* studio */
+.studio-video-item video{
+  width: 100%;
+  height: 180px;
+}
+.video-header{
+  background-color: #202020;
+  padding: 20px;
+}
+.video-info{
+  display: flex;
+  justify-content: space-evenly;
+}
+.video-info p{
+  color:#fff
+
+}
+.controls-top a{
+  color:#7ca234
 }
 @media only screen and (max-width: 980px) {
   .navbar-nav .dropdown-menu {
@@ -236,16 +413,30 @@ border-radius: 0;
     border: none;
   }
   
-  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.hover{
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.hover, .nav-tabs .nav-link:focus{
     border: none;
   }
-  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
-    border: unset,none;
-    }
-  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    border: none;
+  
+ 
+  .dropdown-menu{
+    left: 0;
   }
-  .dropdown-content{
-    display: unset;
+  .tab-wrraper{
+    padding: 0;
   }
+  .chamipion-box-item{
+    max-width: unset;
+  }
+  .border-left{
+    border-left: none !important;
+  }
+  .video-header {
+    background-color: #202020;
+font-size: 10px;
+}
+.navbar-nav{
+  flex-direction: row !important;
+  justify-content: space-between;
+
+}
 }
