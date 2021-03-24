@@ -30,6 +30,9 @@ a:hover {
 body {
   background-color: #000000;
 }
+#navbarSupportedContent{
+  width: unset;
+}
 .navbar {
   padding: 1rem 1rem !important;
   background-color: #202020;
@@ -443,9 +446,13 @@ ul {
     justify-content: space-between;
   }
   .video-header h4 {
-    display: unset;
+    display: block;
     margin-left: unset;
     font-size: 12px;
-    line-height: 3;
+    padding-bottom: 10px;
+
+  }
+  #navbarSupportedContent{
+    width: 100%;
   }
 }
