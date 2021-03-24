@@ -19,12 +19,12 @@ $("#dropdownMenuButton").click(() => {
 $(window).scroll(function(){
   var sc =  $(window).scrollTop()
    if(sc>0){
-    $(".heading").slideUp(300)
+    $(".heading").slideUp(600)
    console.log("welcome back")
 
    }  
    else {
-            $(".heading").slideDown(300)
+            $(".heading").slideDown(600)
 
          }
  })
