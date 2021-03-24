@@ -359,7 +359,6 @@ ul {
 .news .action .fa {
   color: #fff;
   font-size: 30px;
-  padding: 10px;
 }
 .border-left {
   border-left: 1px solid #292a2b !important;
@@ -415,6 +414,12 @@ ul {
   .nav-tabs .nav-link.hover,
   .nav-tabs .nav-link:focus {
     border: none;
+
+  }
+  .nav-item{
+    margin: 0px;
+    padding: 0px 0;
+
   }
 
   .dropdown-menu {
